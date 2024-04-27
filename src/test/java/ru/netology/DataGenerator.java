@@ -36,7 +36,7 @@ public class DataGenerator {
 
     public static String getRandomLogin() {
         return faker.name().username();
-    }
+    }git add -f artifacts/app-mbank.jar
 
     public static String getRandomPassword() {
 

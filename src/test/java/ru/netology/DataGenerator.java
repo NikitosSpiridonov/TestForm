@@ -28,6 +28,7 @@ public class DataGenerator {
         given()
                 .spec(requestSpec)
                 .body(user)
+                .when()
                 .post("/api/system/users")
                 .then()
                 .statusCode(200);
